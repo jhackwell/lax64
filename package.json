@@ -2,7 +2,10 @@
   "name": "lax64",
   "description": "Base64 for the criminally lazy",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "3.9.*",
+    "buffer": "3.2.*"
+  },
   "scripts": {
     "lint": "jshint .",
     "checkStyle": "jscs .",
